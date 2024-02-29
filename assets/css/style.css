@@ -14,6 +14,7 @@ body {
 /* =============== common =============== */
 a {
   text-decoration: none;
+  color: currentColor;
 }
 
 .main-content {
@@ -37,6 +38,13 @@ a {
 
 .btn:hover {
   opacity: 0.9;
+}
+
+.heading-lv2 {
+  color: #0d1111;
+  font-size: 4.2rem;
+  font-weight: 700;
+  line-height: 1.33;
 }
 
 /* =============== header =============== */
@@ -97,7 +105,7 @@ a {
 
 /* =============== hero =============== */
 .hero {
-  margin-top: 42px;
+  padding: 42px 0 79px;
 }
 
 .hero .body {
@@ -105,11 +113,11 @@ a {
 }
 
 .hero .content-block {
-  width: 50%;
-  margin-top: 93px;
+  width: 51%;
 }
 
 .hero .content-block .top-title {
+  margin-top: 93px;
   color: #767e7e;
   font-size: 1.4rem;
   line-height: 1.5;
@@ -160,7 +168,9 @@ a {
 }
 
 .hero .media-block {
-  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  width: 49%;
   position: relative;
 }
 
@@ -300,4 +310,66 @@ a {
   font-weight: 500;
   line-height: normal;
   color: #fff;
+}
+
+/* =============== feature =============== */
+.feature {
+  margin-top: 70px;
+}
+
+.feature .body {
+  max-width: 1024px;
+  padding: 60px 0;
+}
+
+.feature .top-tilte {
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.feature .heading-lv2 {
+  margin-top: 18px;
+  max-width: 577px;
+}
+
+.feature .desc {
+  margin-top: 18px;
+  max-width: 590px;
+  color: #767e7e;
+  font-size: 1.8rem;
+  line-height: normal;
+}
+
+.feature .feature-list {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.feature .feature-list .item-title {
+  margin-top: 26px;
+  color: #0d1111;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.feature .item .item-desc {
+  margin-top: 16px;
+  color: #9da6a5;
+  font-size: 1.6rem;
+  line-height: 1.69;
+}
+
+.feature .item:first-child .item-desc {
+  max-width: 168px;
+}
+
+.feature .item:nth-child(2) .item-desc {
+  max-width: 223px;
+}
+
+.feature .item:nth-child(3) .item-desc {
+  max-width: 224px;
 }
