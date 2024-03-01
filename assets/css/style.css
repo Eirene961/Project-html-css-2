@@ -493,3 +493,31 @@ a {
   background: #1ebfc1;
   border-radius: 50%;
 }
+
+/* =============== countdown =============== */
+.countdown {
+  margin-top: 145px;
+}
+
+.countdown .body {
+  padding: 60px 154px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.countdown .item .static {
+  color: #0d1111;
+  font-size: 6.2rem;
+  font-weight: 700;
+  line-height: normal;
+  display: block;
+  text-align: center;
+}
+
+.countdown .item .desc {
+  margin-top: 11px;
+  color: #767e7e;
+  font-size: 1.8rem;
+  line-height: normal;
+  text-align: center; 
+}
