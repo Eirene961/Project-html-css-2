@@ -664,3 +664,58 @@ a {
 .admit .btn {
   margin-left: 410px;
 }
+
+/* =============== footer =============== */
+.footer {
+  padding: 131px 0 50px;
+  background: #fff;
+}
+
+.footer .row-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer .title {
+  color: #2e2e2e;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.footer .list li {
+  margin-top: 18px;
+  color: #535353;
+  font-size: 1.6rem;
+  line-height: normal;
+}
+
+.footer .list li:first-child {
+  margin-top: 26px;
+}
+
+.footer .column:last-child li {
+  margin-top: 18px;
+}
+
+.footer .social {
+  display: flex;
+  align-items: center;
+}
+
+.footer .social a:first-child {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 9px;
+}
+
+.footer .copyright {
+  margin-top: 80px;
+  text-align: center;
+  color: #b0b5b4;
+  font-size: 1.8rem;
+  line-height: normal;
+}
